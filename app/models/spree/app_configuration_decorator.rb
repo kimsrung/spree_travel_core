@@ -8,4 +8,5 @@ module Spree
   end
 end
 
-Spree::AppConfiguration.prepend Spree::AppConfigurationDecorator
+# TODO: temporarily disable
+# Spree::AppConfiguration.prepend Spree::AppConfigurationDecorator
