@@ -8,4 +8,4 @@ module Spree
   end
 end
 
-Spree::AppConfiguration.prepend Spree::AppConfigurationDecorator
+Spree::Core::Configuration.prepend Spree::AppConfigurationDecorator
